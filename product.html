@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>All Products - RealStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="Container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                <img src="images/Logo.jpg" width="125px">
+                </a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contacts</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+<!---------Featured Products------------>
+<div class="small-container">
+    <div class="row row-2">
+        <h2>All Mobiles</h2>
+        <select>
+            <option>Default Shorting</option>
+            <option>Short by price</option>
+            <option>Short by popularity</option>
+            <option>Short by rating</option>
+            <option>Short by sale</option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <a href="https://www.realme.com/in/realme-8-pro/specs">
+            <img src="images/pro3 realme 8 pro.jpg">
+            <h4>Realme 8 Pro</h4>
+            </a>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Rs. 20000</p>
+        </div>
+        <div class="col-4">
+            <a href="https://www.oppo.com/in/product/reno6pro.P.P1100049?gclid=Cj0KCQjw-pCVBhCFARIsAGMxhAf5fHycy4AdxV2ivJgSrWhVRCAiuab6K-GWN-3en4DAQlBHmWCFA1EaAq1AEALw_wcB">
+            <img src="images/pro 6 reno 6 pro.jpg">
+            <h4>Oppo Reno 6 Pro</h4>
+            </a>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Rs. 12000</p>
+        </div>
+        <div class="col-4">
+            <a href="https://www.samsung.com/in/smartphones/galaxy-s20/">
+            <img src="images/pro 5 s20 ultra.jpg">
+            <h4>Samsung S20 Ultra</h4>
+            </a>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Rs. 70000</p>
+        </div>
+        <div class="col-4">
+            <a href="https://www.samsung.com/levant/business/smartphones/galaxy-a/galaxy-a9-a920-sm-a920fzbdmid/">
+            <img src="images/pro11 samsung a9.png">
+            <h4>Samsung A9</h4>
+            </a>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Rs. 27000</p>
+        </div>
+        <div class="col-4">
+            <a href="https://www.oppo.com/in/smartphones/series-reno/reno7-pro-5g/">
+            <img src="images/pro8 reno7 pro.jpg">
+            <h4>Oppo Reno 7 pro</h4>
+            </a>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Rs. 35000</p>
+        </div>
+        <div class="col-4">
+            <a href="https://www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B07PSHNKP6">
+            <img src="images/pro10 samsung not e10 plus.jpg">
+            <h4>Samsung Note 10 Plus</h4>
+            </a>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Rs. 60000</p>
+        </div>
+        <div class="col-4">
+            <a href="https://www.realme.com/in/realme-gt-master-edition">
+            <img src="images/pro9 gt master edition.jpg">
+            <h4>Realme GT Master Edition</h4>
+            </a>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Rs. 25000</p>
+        </div>
+        <div class="col-4">
+            <a href="https://www.realme.com/in/realme-narzo-50-pro-5g">
+            <img src="images/pro 12 narzo 50 pro.jpg">
+            <h4>Realme Narzo 50 Pro</h4>
+            </a>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Rs. 19000</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <a href="https://buy.realme.com/in/goods/322">
+            <img src="images/Pro1 realme 8.jpg">
+            <h4>Realme 8</h4>
+            </a>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Rs. 17000</p>
+        </div>
+        <div class="col-4">
+            <a href="https://buy.realme.com/in/goods/514">
+            <img src="images/pro2 realme c35.jpg">
+            <h4>Realme C35</h4>
+            </a>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Rs. 12000</p>
+        </div>
+        <div class="col-4">
+            <a href="https://www.flipkart.com/realme-6-pro-lightning-blue-128-gb/p/itmeab248911af26?pid=MOBFPCX7M72AW7HA&lid=LSTMOBFPCX7M72AW7HADH0Q88&marketplace=FLIPKART&q=realme+6+pro&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=organic&iid=652c73dc-1bf2-4ed7-999b-a76128231dfd.MOBFPCX7M72AW7HA.SEARCH&ppt=hp&ppn=homepage&ssid=tt2yxuu9z40000001654936526241&qH=78d03ade33d3b96e">
+            <img src="images/pro 4 realme 6 pro.jpg">
+            <h4>Realme 6 Pro</h4>
+            </a>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Rs. 18000</p>
+        </div>
+        <div class="col-4">
+            <a href="https://www.oppo.com/in/product/reno6.P.P1100048?gclid=Cj0KCQjw-pCVBhCFARIsAGMxhAcUmOfa1T5xBOrnAfeCvBibzcDwTeICc7Zh-A965OSvKugnQz_eCwUaAh-9EALw_wcB">
+            <img src="images/pro7 reno6.jpg">
+            <h4>Oppo Reno 6</h4>
+            </a>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Rs. 29000</p>
+        </div>
+    </div>
+
+    <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+    </div>
+</div>
+<!---------footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/Logo.jpg" alt="">
+                <p>Our purposes is to provide cheap and best mobile phones to our customer to get more benefits through our services</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                   <a href="https://www.facebook.com/imsultan786"><li>Facebook</li></a>
+                    <a href="https://twitter.com/Imsultan786"><li>Twitter</li></a>
+                    <a href="https://www.instagram.com/imsultan786/"><li>Instagram</li></a>
+                    <a href="https://www.linkedin.com/in/naiyar-azam-b4655a204/"><li>LinkedIn</li></a>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">No Copyright</p>
+    </div>
+</div>
+<!------js for toggle-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight="200px";
+        }
+        else{
+            MenuItems.style.maxHeight="0px";
+        }
+    }
+</script>
+</body>
+</html>
